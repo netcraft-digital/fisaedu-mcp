@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ro.fisaedu/fise-de-lucru",
+  "description": "Romanian printable worksheets (kindergarten–grade 12), aligned to the national curriculum.",
+  "title": "FișaEdu – fișe de lucru",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.fisaedu.ro/chatgpt",
+  "icons": [
+    {
+      "src": "https://www.fisaedu.ro/web-app-manifest-512x512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.fisaedu.ro/mcp"
+    }
+  ]
+}
